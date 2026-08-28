@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bambucentro | Materia Prima y Arquitectura en Bambú</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#FBFBFA] text-[#1D1D1F] antialiased selection:bg-[#2D4A27] selection:text-white">
+
+    <!-- Navbar Minimalista -->
+    <header class="fixed top-0 left-0 w-full bg-[#FBFBFA]/80 backdrop-blur-md z-50 border-b border-black/5">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-semibold tracking-wider text-lg text-[#2D4A27]">BAMBUCENTRO</a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-[#424245]">
+                <a href="#materia" class="hover:text-[#2D4A27] transition">Materia Prima</a>
+                <a href="#aplicaciones" class="hover:text-[#2D4A27] transition">Arquitectura & Diseño</a>
+                <a href="#catalogo" class="hover:text-[#2D4A27] transition">Selección</a>
+            </nav>
+            <a href="https://wa.me/" target="_blank" class="bg-[#2D4A27] text-white text-sm font-medium px-4 py-2 rounded-full hover:bg-[#233a1e] transition">
+                Cotizar por WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 md:pt-44 md:pb-32 px-6 text-center max-w-4xl mx-auto">
+        <span class="text-xs font-semibold tracking-widest text-[#2D4A27] uppercase bg-[#2D4A27]/10 px-3 py-1 rounded-full">
+            Naturaleza Estructural
+        </span>
+        <h1 class="text-4xl md:text-6xl font-semibold tracking-tight mt-6 leading-tight">
+            La pureza del bambú para la arquitectura del futuro.
+        </h1>
+        <p class="text-lg md:text-xl text-[#515154] mt-6 max-w-2xl mx-auto font-light">
+            Suministro certificado de bambú como materia prima de alta resistencia para proyectos constructivos, diseño interior y mobiliario de categoría superior.
+        </p>
+        <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+            <a href="https://wa.me/" target="_blank" class="bg-[#2D4A27] text-white font-medium px-8 py-3.5 rounded-full hover:bg-[#233a1e] transition shadow-sm">
+                Iniciar Cotización Rápida
+            </a>
+            <a href="#catalogo" class="border border-black/15 font-medium px-8 py-3.5 rounded-full hover:bg-black/5 transition">
+                Explorar Tipos de Bambú
+            </a>
+        </div>
+    </section>
+
+    <!-- Visual Showcase / Banner -->
+    <section class="px-6 max-w-6xl mx-auto mb-28">
+        <div class="rounded-2xl overflow-hidden bg-[#E8E8E3] aspect-[21/9] flex items-center justify-center relative">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+            <div class="absolute bottom-8 left-8 text-white z-10 max-w-lg">
+                <h3 class="text-2xl font-medium">Diseñado para resistir. Creado para inspirar.</h3>
+                <p class="text-sm text-white/80 mt-1">Varas seleccionadas bajo rigurosos estándares de madurez estructural.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Educativa: Tipos de Bambú -->
+    <section id="catalogo" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center max-w-xl mx-auto mb-16">
+            <h2 class="text-3xl font-semibold tracking-tight">Nuestras Variedades</h2>
+            <p class="text-[#515154] mt-3 font-light">Cada especie de bambú cuenta con propiedades físicas específicas ideales para distintos requerimientos estructurales y estéticos.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white p-8 rounded-2xl border border-black/5 flex flex-col justify-between">
+                <div>
+                    <span class="text-xs font-semibold text-[#2D4A27] uppercase">Estructural / Alta Resistencia</span>
+                    <h3 class="text-2xl font-semibold mt-2">Dendrocalamus Giganteus</h3>
+                    <p class="text-[#515154] text-sm mt-4 font-light leading-relaxed">
+                        El gigante de los bambúes. Ideal para columnas principales, vigas maestras y estructuras de gran envergadura arquitectónica debido a su grosor y firmeza excepcional.
+                    </p>
+                </div>
+                <div class="mt-8 pt-6 border-t border-black/5 flex items-center justify-between">
+                    <span class="text-xs text-[#515154]">Diámetro: 15-20 cm</span>
+                    <a href="https://wa.me/?text=Hola,%20quiero%20cotizar%20Dendrocalamus%20Giganteus" target="_blank" class="text-sm font-medium text-[#2D4A27] hover:underline">Cotizar &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-8 rounded-2xl border border-black/5 flex flex-col justify-between">
+                <div>
+                    <span class="text-xs font-semibold text-[#2D4A27] uppercase">Versátil / Construcción General</span>
+                    <h3 class="text-2xl font-semibold mt-2">Guadua Angustifolia</h3>
+                    <p class="text-[#515154] text-sm mt-4 font-light leading-relaxed">
+                        Reconocida mundialmente como el "acero vegetal". Posee la mejor relación peso-resistencia, perfecta para muros, cerchas, techos y revestimientos decorativos.
+                    </p>
+                </div>
+                <div class="mt-8 pt-6 border-t border-black/5 flex items-center justify-between">
+                    <span class="text-xs text-[#515154]">Diámetro: 10-14 cm</span>
+                    <a href="https://wa.me/?text=Hola,%20quiero%20cotizar%20Guadua%20Angustifolia" target="_blank" class="text-sm font-medium text-[#2D4A27] hover:underline">Cotizar &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-8 rounded-2xl border border-black/5 flex flex-col justify-between">
+                <div>
+                    <span class="text-xs font-semibold text-[#2D4A27] uppercase">Diseño & Mobiliario</span>
+                    <h3 class="text-2xl font-semibold mt-2">Phyllostachys Aurea</h3>
+                    <p class="text-[#515154] text-sm mt-4 font-light leading-relaxed">
+                        Varas más esbeltas y uniformes de tonos dorados naturales. Perfectas para la fabricación de mobiliario fino, particiones de espacios, pérgolas y detalles de diseño interior.
+                    </p>
+                </div>
+                <div class="mt-8 pt-6 border-t border-black/5 flex items-center justify-between">
+                    <span class="text-xs text-[#515154]">Diámetro: 4-8 cm</span>
+                    <a href="https://wa.me/?text=Hola,%20quiero%20cotizar%20Phyllostachys%20Aurea" target="_blank" class="text-sm font-medium text-[#2D4A27] hover:underline">Cotizar &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aplicaciones / Arquitectura -->
+    <section id="aplicaciones" class="py-20 bg-[#E8E8E3]/50 border-y border-black/5 px-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-xs font-semibold tracking-widest text-[#2D4A27] uppercase">Aplicaciones</span>
+                <h2 class="text-3xl font-semibold tracking-tight mt-3">Llevando el diseño natural al siguiente nivel.</h2>
+                <p class="text-[#515154] mt-4 font-light leading-relaxed">
+                    Proveemos materia prima procesada y curada con estándares industriales, garantizando durabilidad contra plagas y factores climáticos adversos.
+                </p>
+                <ul class="mt-6 space-y-3 text-sm font-medium text-[#1D1D1F]">
+                    <li class="flex items-center gap-3">✓ Arquitectura bioclimática y estructural</li>
+                    <li class="flex items-center gap-3">✓ Diseño de interiores y revestimientos</li>
+                    <li class="flex items-center gap-3">✓ Mobiliario comercial y residencial de alta gama</li>
+                </ul>
+            </div>
+            <div class="bg-[#D8D8D0] rounded-2xl aspect-[4/3] flex items-center justify-center">
+                <span class="text-sm text-[#515154] font-medium">[Espacio para Fotografía Arquitectónica]</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Final / WhatsApp -->
+    <section class="py-24 px-6 text-center max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-semibold tracking-tight">¿Tienes un proyecto en mente?</h2>
+        <p class="text-[#515154] mt-4 font-light">Habla directamente con nuestro equipo técnico de asesores. Te ayudamos a calcular metrajes, calibres y envíos por WhatsApp.</p>
+        <div class="mt-8">
+            <a href="https://wa.me/" target="_blank" class="inline-block bg-[#2D4A27] text-white font-medium px-10 py-4 rounded-full hover:bg-[#233a1e] transition shadow-lg shadow-[#2D4A27]/20">
+                Iniciar Conversación en WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-black/5 py-8 px-6 text-center text-xs text-[#515154]">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <p>&copy; 2026 Bambucentro. Todos los derechos reservados.</p>
+            <p>Diseño Web Minimalista / Experiencia One-Page</p>
+        </div>
+    </footer>
+
+</body>
+</html>
